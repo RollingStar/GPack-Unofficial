@@ -1,0 +1,20 @@
+Installation involves putting the necessary binaries in the PATH (ungpack,
+gparse, 7z, ffmpeg, srep).
+
+Supplied:
+* ungpack (elf32 + source)
+* gparse (elf32 + source)
+
+To be sourced from elsewhere:
+* 7z is probably already installed. If not, you need to install p7zip
+* ffmpeg is for decoding tak audio, it needs to be relatively recent (stable
+  versions 1.1 and 1.2 support tak): http://www.ffmpeg.org
+* srep: http://freearc.org/research/SREP.aspx
+
+For those unfamiliar with linux:
+* Put binaries in /usr/bin. You may need to be root
+* If running a binary gives permission denied error, change permissions with
+  "chmod 755 the_binary". You may need to be root
+
+Once installed, run ungpack from commandline via 'ungpack'
+

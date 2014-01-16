@@ -1,0 +1,73 @@
+This license section was not written by the original program author. It is a best-guess by someone else.
+This document was not included with the original GPack release.
+
+Programs used:
+
+Tom's lossless Audio Kompressor (TAK) - 2.2.0
+	Takc.exe
+		(C) 2006 Thomas Becker
+		http://thbeck.de/Tak/Tak.html
+			Not included in this repository
+			Latest version probably works fine.
+			2.2.0 is still available from the author at
+				http://www.hydrogenaudio.org/forums/index.php?showtopic=89610
+
+Everything else is included:
+
+7-zip - 9.25 alpha
+	7z.dll
+	7z.exe
+		GNU LGPL
+		http://www.7-zip.org/
+libgomp
+	libgomp-1.dll
+		GNU GPL 3.0
+		http://gcc.gnu.org/onlinedocs/libgomp/
+MinGW
+	Used by sox.exe
+	pthreadgc2.dll
+		Copyright (c) 2012 MinGW.org project
+		
+		Permission is hereby granted, free of charge, to any person obtaining a
+		copy of this software and associated documentation files (the "Software"),
+		to deal in the Software without restriction, including without limitation
+		the rights to use, copy, modify, merge, publish, distribute, sublicense,
+		and/or sell copies of the Software, and to permit persons to whom the
+		Software is furnished to do so, subject to the following conditions:
+
+		The above copyright notice, this permission notice and the below disclaimer
+		shall be included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+		FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+		DEALINGS IN THE SOFTWARE.
+SoX - 14.4.0
+	sox.exe
+		GNU GPL 2.0 / GNU LGPL 2.1
+		http://sox.sourceforge.net/Main/HomePage
+SplitPipe - r3
+	SplitPipe.exe
+		Author unknown
+		Website unknown
+			If I knew a website, I wouldn't include this program out of respect for
+			the author. Since I can't find a website, I'm including the program.
+		Does *not* seem to be the program hosted here
+			http://ds9a.nl/splitpipe/
+		Perhaps the same author as GPack? Running the exe without any arguments
+		gives similar information and a similar visioning scheme as GPack.
+SuperREP - 3.0
+	srep.exe
+		GNU GPL 2.0
+		http://freearc.org/research/SREP.aspx
+zlib
+	Used by sox.exe
+	zlib1.dll
+		http://www.zlib.net/zlib_license.html
+		http://www.zlib.net/
+All other files
+	Created by the original author of GPack
+	DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE

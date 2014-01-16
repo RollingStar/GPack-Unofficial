@@ -1,0 +1,50 @@
+ungpack r9
+
+
+Merge program for related images
+
+Usage:
+ungpack [ops] some_name.grp
+
+[ops]
+Unpack by index: -ui=#,...,# --unpack-index=#,...,#
+    Comma delimited list containing index of image in grp to unpack.
+    For example, -u=0,3,4 specifies that images on the 1st, 4th and 5th
+    lines of the .grp should be unpacked
+
+Unpack by tags: -ut=#,...,# --unpack-tags=#,...,#
+    Comma delimited list containing tags to unpack.
+    For example, -ut=!,pal specifies that any images with a tag of "!"
+    or "pal" should be unpacked
+    Wrap the entire -ut option in quotes if any tags have spaces
+
+Unpack by partial filename matches: -um=#,...,# --unpack-matching=#,...,#
+    Comma delimited list containing partial matches to filename to unpack.
+    For example, -u=USA specifies that any images containing "USA"
+    in the filename should be unpacked
+    Wrap the entire -um option in quotes if any filename matches have spaces
+
+Delete merged files: -d --delete
+    Delete merged files if program executes successfully.
+    NOTE: use at your own risk. Program may execute successfully yet not unpack
+          every image. Incompatible with test or partial unpack options
+
+Test mode: -t --test
+    Simulate decode, same as normal operation except the images are not created
+
+Ignore padding: --pad-no
+    For system decodes, ignore padding even if present (output is scrubbed)
+
+Pause on completion: --pause
+    Wait for user interaction at the end of execution
+
+Notes:
+ <1> A WARNING indicates that a non-critical routine failed, execution
+     continues as it may be recoverable. Does not affect resulting images
+ <2> An ERROR indicates that a critical routine failed, execution stops.
+     Any resulting images if created should be checked
+ <3> Temporary files may need to be manually removed in the event of a
+     WARNING or an ERROR
+ <4> Ensure you have enough hdd space before merging or unmerging
+ <5> Always make a backup of data before use, to avoid potential data loss
+

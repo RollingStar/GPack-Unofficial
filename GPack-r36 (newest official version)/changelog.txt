@@ -1,0 +1,111 @@
+
+---
+r35
+* Additional program: ungpack for linux
+* Additional program: GPackGUI for windows
+* Alter exit codes to allow GUI to be more descriptive
+---
+
+---
+r34
+*Allow relative paths to input directory on encode (must start with '.')
+*Fixed logic errors with normal encode combined with --nocomp (like deleting srep files on normal encode even if no compression was used)
+*New option, optionally set output directory on encode or decode (-o put_them_here)
+---
+
+---
+r33
+*New compression option (--nocomp), no compression (besides srep). Saves a lot of time when we start dealing with PS3 games in the tens to hundreds of gigabytes
+*Updated to latest GParse (r31), which:
+[list]
+ *Adds PS3 support
+ *Fixes Gamecube support (some gamecube failed on encode, only affected those who encountered the error)
+ *Fixes Xbox support (up until now some data was treated as padding meaning scrubbed decodes were junk, and existing encodes should be redone. Even though it's fixed I don't recommend encoding xbox yet, redump's xbox format may change soon meaning you'd have to redo it anyway)
+ *Some multi-threading via openmp, mostly for ps3
+ *--test mode, simulate decode to check integrity without creating the images
+---
+
+---
+r32
+*Removed piping for now (due to bug report)
+*Added console title as information source
+*Treat .raw as .bin
+*CCD support (.sub treated as a new sector size [96], .img treated as .bin, .ccd handled as if it were 'embedded')
+*Special modes for systems that need to be dealt with in a special way (wii, ngc, xbox)
+*Now three compression profiles (--quick, --normal, --slow, calling 7zip with mx1, mx5 and mx9 respectively). Normal operation of previous versions is the same as --slow. --quick is the same as before
+*Check image sizes on encode
+*Embedding files is deprecated. Decode of existing embedded files remains (and the same way is used when storing .ccd), but embedding on encode has been disabled (it may be re-implemented if implemented for special systems, down the line)
+---
+
+---
+r31
+*Check exit code of external programs
+*Buffered iso merge
+*Buffered bin merge
+*Buffered iso unmerge
+*Buffered bin unmerge
+*Piped iso unmerge (hack via batch file, only for when unpacking all isos, hardcoded, fallback to unpiped iso unmerge in event of failure)
+*Check for and delete working files from previous executions (generally only present if a previous execution failed or was closed early)
+*Have srep create its working files in the same directory as the images/merged files, instead of wherever the user ran gpack from
+*Delete merged files option when unmerging (--delete). Deletes merged files if program executes successfully. Incompatible with test and partial unpack options for obvious reasons
+*Quick compression mode (--quick) when merging. Calls 7zip with lower compression settings (-mx1 vs -mx9)
+---
+
+*All future compiles are statically linked as of here
+
+---
+r30 mkII
+*Same as r30, except libraries are statically linked instead of dynamically (exe is larger, but there should no longer be dependence on msvcr100.dll and similar).
+---
+
+---
+r30
+*Experimental option, -ef --embed-file. A standard file (not iso or bin) can be merged as data. Not for cue files if name changes are likely
+---
+
+---
+r29
+*Pause on completion by default (wait for user to press enter, useful if user invokes GPack by dragging files onto executable)
+*New switch, -s --script, to override pause on completion (so scripts do not stall, no need for human interaction)
+*Implemented tags in .grp file
+*Redefine -u --unpack-list option to -ui --unpack-index
+*New unpack option, -ut --unpack-tags
+*New unpack option, -um --unpack-matching
+---
+
+---
+r28
+*Increase open file limit from 512 to 2048. This means a single merge can contain over 2000 isos and 2000 bins (going past this requires a bigger code change)
+*Start external programs in low priority (for if user is multi-tasking)
+*Start external programs minimised (so they don't steal focus)
+---
+
+---
+r27
+*Add timings for individual split/cat and unsplit/uncat operations
+*Add status update to title of console window for unsplit/uncat operations
+*Unpack some not all images option when unmerging
+*options.ini file, so users can define their own srep settings, compressor settings, and compressor
+---
+
+---
+r26
+*Added -mem700mb to srep decompression to keep memory usage within budget and stop potential out of memory errors on 32 bit machines
+*Test function for unmerge (test merged files integrity by unpacking images without writing them to file)
+---
+
+---
+r25
+*Code refactoring
+---
+
+---
+r24
+
+First fully native release. Execution involves:
+*Order images
+*Split to cat files
+*Reduce with srep
+*Compress data with 7zip
+*Compress audio with tak
+---
