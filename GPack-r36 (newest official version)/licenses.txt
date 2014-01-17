@@ -15,6 +15,7 @@ libgomp
 MinGW
 	Used by sox.exe
 	pthreadgc2.dll
+		http://www.mingw.org/
 		Copyright (c) 2012 MinGW.org project
 		
 		Permission is hereby granted, free of charge, to any person obtaining a
@@ -54,6 +55,8 @@ SuperREP - 3.0
 		http://freearc.org/research/SREP.aspx
 Tom's lossless Audio Kompressor (TAK) - 2.2.0
 	TAK_2.2.0.zip (For Takc.exe)
+		http://thbeck.de/Tak/Tak.html
+		(C) Thomas Becker 2006
 		The Software may be freely distributed provided that it is not
 		modified and the original archive remains intact with all accompanying
 		files, and provided that no fee is charged (except for any reasonable
