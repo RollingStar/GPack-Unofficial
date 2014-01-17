@@ -3,17 +3,6 @@ This document was not included with the original GPack release.
 
 Programs used:
 
-Tom's lossless Audio Kompressor (TAK) - 2.2.0
-	Takc.exe
-		(C) 2006 Thomas Becker
-		http://thbeck.de/Tak/Tak.html
-			Not included in this repository
-			Latest version probably works fine.
-			2.2.0 is still available from the author at
-				http://www.hydrogenaudio.org/forums/index.php?showtopic=89610
-
-Everything else is included:
-
 7-zip - 9.25 alpha
 	7z.dll
 	7z.exe
@@ -63,6 +52,12 @@ SuperREP - 3.0
 	srep.exe
 		GNU GPL 2.0
 		http://freearc.org/research/SREP.aspx
+Tom's lossless Audio Kompressor (TAK) - 2.2.0
+	TAK_2.2.0.zip (For Takc.exe)
+		The Software may be freely distributed provided that it is not
+		modified and the original archive remains intact with all accompanying
+		files, and provided that no fee is charged (except for any reasonable
+		fees necessary to cover costs of distribution media).
 zlib
 	Used by sox.exe
 	zlib1.dll
