@@ -58,7 +58,7 @@ SplitPipe - r3
 		Does *not* seem to be the program hosted here
 			http://ds9a.nl/splitpipe/
 		Perhaps the same author as GPack? Running the exe without any arguments
-		gives similar information and a similar visioning scheme as GPack.
+		gives similar information and a similar versioning scheme as GPack.
 SuperREP - 3.0
 	srep.exe
 		GNU GPL 2.0
