@@ -6,16 +6,19 @@ Programs used:
 7-zip - 9.25 alpha
 	7z.dll
 	7z.exe
-		GNU LGPL
 		http://www.7-zip.org/
+		GNU LGPL
+		
 libgomp
 	libgomp-1.dll
-		GNU GPL 3.0
 		http://gcc.gnu.org/onlinedocs/libgomp/
+		GNU GPL 3.0
+		
 MinGW
 	Used by sox.exe
 	pthreadgc2.dll
 		http://www.mingw.org/
+		
 		Copyright (c) 2012 MinGW.org project
 		
 		Permission is hereby granted, free of charge, to any person obtaining a
@@ -35,10 +38,12 @@ MinGW
 		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 		FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 		DEALINGS IN THE SOFTWARE.
+		
 SoX - 14.4.0
 	sox.exe
-		GNU GPL 2.0 / GNU LGPL 2.1
 		http://sox.sourceforge.net/Main/HomePage
+		GNU GPL 2.0 / GNU LGPL 2.1
+		
 SplitPipe - r3
 	SplitPipe.exe
 		Author unknown
@@ -49,23 +54,25 @@ SplitPipe - r3
 			http://ds9a.nl/splitpipe/
 		Perhaps the same author as GPack? Running the exe without any arguments
 		gives similar information and a similar versioning scheme as GPack.
+		
 SuperREP - 3.0
 	srep.exe
-		GNU GPL 2.0
 		http://freearc.org/research/SREP.aspx
+		GNU GPL 2.0
+		
 Tom's lossless Audio Kompressor (TAK) - 2.2.0
-	TAK_2.2.0.zip (For Takc.exe)
+	Takc.exe
 		http://thbeck.de/Tak/Tak.html
+		
 		(C) Thomas Becker 2006
-		The Software may be freely distributed provided that it is not
-		modified and the original archive remains intact with all accompanying
-		files, and provided that no fee is charged (except for any reasonable
-		fees necessary to cover costs of distribution media).
+		Used with permission.
+
 zlib
 	Used by sox.exe
 	zlib1.dll
-		http://www.zlib.net/zlib_license.html
 		http://www.zlib.net/
+		http://www.zlib.net/zlib_license.html
+		
 All other files
 	Created by the original author of GPack
 	DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
