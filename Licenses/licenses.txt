@@ -7,7 +7,7 @@ Programs used:
 	7z.dll
 	7z.exe
 		http://www.7-zip.org/
-		GNU LGPL
+		GNU LGPL + unRAR restriction
 		
 libgomp
 	libgomp-1.dll
