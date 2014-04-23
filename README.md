@@ -17,9 +17,9 @@ How Does It Work?
 
 These three programs help GPack compress files with a high degree of efficiency:
 
-* **General Compression** - [7-zip - 9.25 alpha](http://www.7-zip.org/)
-* **Large-Dictionary Compression** - [SuperREP - 3.0](http://freearc.org/research/SREP.aspx)
-* **Sound Compression** - [Tom's lossless Audio Kompressor (TAK) - 2.2.0](http://thbeck.de/Tak/Tak.html)
+* **General Compression** - [7-zip version 9.25 alpha](http://www.7-zip.org/)
+* **Large-Dictionary Compression** - [SuperREP version 3.0](http://freearc.org/research/SREP.aspx)
+* **Sound Compression** - [Tom's lossless Audio Kompressor (TAK) version 2.2.0](http://thbeck.de/Tak/Tak.html)
 
 Changes
 -------
