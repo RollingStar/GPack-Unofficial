@@ -4,7 +4,7 @@ GPack-Unofficial
 An unofficial backup of GPack, a video game compression tool. Included:
 
 * GPack r36 (latest)
-* GPack Datter r9 (latest is r10)
+* GPack Datter r9 (latest is r10 - please contact me if you have it.)
 * GPack Merger r2 (latest)
 
 Download
