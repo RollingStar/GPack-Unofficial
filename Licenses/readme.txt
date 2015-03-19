@@ -3,11 +3,11 @@ This document was not included with the original GPack release.
 
 Programs used:
 
-7-zip - 9.25 alpha
+7-Zip - 9.25 alpha
 	7z.dll
 	7z.exe
 		http://www.7-zip.org/
-		GNU LGPL + unRAR restriction
+		7-Zip.txt
 		
 libgomp
 	libgomp-1.dll
@@ -18,27 +18,7 @@ MinGW
 	Used by sox.exe
 	pthreadgc2.dll
 		http://www.mingw.org/
-		
-		Copyright (c) 2012 MinGW.org project
-		
-		Permission is hereby granted, free of charge, to any person obtaining a
-		copy of this software and associated documentation files (the "Software"),
-		to deal in the Software without restriction, including without limitation
-		the rights to use, copy, modify, merge, publish, distribute, sublicense,
-		and/or sell copies of the Software, and to permit persons to whom the
-		Software is furnished to do so, subject to the following conditions:
-
-		The above copyright notice, this permission notice and the below disclaimer
-		shall be included in all copies or substantial portions of the Software.
-
-		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-		FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-		DEALINGS IN THE SOFTWARE.
-		
+		MinGW.txt
 SoX - 14.4.0
 	sox.exe
 		http://sox.sourceforge.net/Main/HomePage
@@ -63,16 +43,14 @@ SuperREP - 3.0
 Tom's lossless Audio Kompressor (TAK) - 2.2.0
 	Takc.exe
 		http://thbeck.de/Tak/Tak.html
-		
-		(C) Thomas Becker 2006
-		Used with permission.
+		TAK.txt
 
 zlib
 	Used by sox.exe
 	zlib1.dll
 		http://www.zlib.net/
-		http://www.zlib.net/zlib_license.html
+		zlib.txt
 		
 All other files
 	Created by the original author of GPack
-	DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+	WTFPL
